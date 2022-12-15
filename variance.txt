@@ -1,0 +1,31 @@
+import numpy as np
+
+
+my_list=np.asarray([1,2,2,2,4,5,6,6,6,9,10,10,10,11,14,14,25,18,19,20])
+
+np.var(my_list)
+
+np.std(my_list)
+
+np.mean(my_list)
+
+lower_range=9.7-6.6
+
+higher_range=9.7+6.6
+
+lower_range
+
+higher_range
+
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+x=np.random.normal(50,3,5000)
+
+x
+
+print('Max is {}'.format(max(x)))
+print('Min is {}'.format(min(x)))
+print('Max - min is {}'.format(max(x) - min(x)))
+
